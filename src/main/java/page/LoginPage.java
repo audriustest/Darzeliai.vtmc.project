@@ -14,7 +14,7 @@ public class LoginPage extends AbstractObjectPage {
     @FindBy(id = "password")
     public WebElement inputPassword;
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div[1]/form/button")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/form/button")
 	public WebElement buttonPrisijungti;
 
 
